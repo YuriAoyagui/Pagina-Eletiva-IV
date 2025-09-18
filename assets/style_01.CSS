@@ -1,0 +1,254 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+.h01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: orange;
+}
+
+.h01 img {
+    width: 100px;
+    height: 100px;
+}
+
+.h01 h2 {
+    font-size: 20px;
+    margin-left: 85%;
+}
+
+.h01 a{
+    text-decoration: none; 
+    color: white;
+}
+
+.h01 p {
+    font-size: 40px;
+    color: white;
+}
+
+header nav {
+    width: 100%;
+}
+
+header nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+    background-color: darkorange;
+}
+
+header nav ul li {
+    list-style: none;
+    margin-left: 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color:white;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.s01 {
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.s01 img{
+    width: 65%;
+    height: 100px;
+}
+
+.s02 {
+    width: 78%;
+    height: 60px;
+    margin-left: 11%;
+    margin-right: 11%;
+    margin-top: 30px;
+    border-bottom:solid orange 2px;
+    justify-items: center;
+}
+
+.s02 p {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: orange;
+}
+
+.g01 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.g02 {
+    padding: 15px;
+
+    background: white;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2 ease;
+}
+
+.g02:hover {
+    transform: translateX(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.g02 img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.g02 h3 {
+    font-weight: normal;
+    margin: 10px 0;
+    color: #333;
+    padding: 0;
+    font-size: 16px;
+}
+
+.g03 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+    padding: 0;
+}
+
+.preco {
+    font-size: 16px;
+    font-weight: bold;
+    color: #e53935;
+    margin-right: 5px;
+}
+
+.estoque {
+    font-size: 14px;
+    color: #999;
+}
+
+.footer-main {
+    background-color: rgb(247, 247, 247);
+    padding: 40px 20px 0;
+    margin-top: 30px;
+}
+
+.footer-div1 {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+.footer-colunas {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 160px;
+}
+
+.footer-colunas h3 {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.footer-colunas ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-colunas li a {
+    color: rgb(85, 85, 85);
+    font-size: 12px;
+    font-weight: normal;
+    padding: 5px 0;
+    display: block;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.icones-pagamento {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.icones-pagamento img {
+    width: 40px;
+    height: auto;
+    margin: 2px;
+}
+
+.redes-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.redes-footer  a {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    padding: 5px 0;
+    color: rgb(85, 85, 85);
+    font-weight: normal;
+}
+
+.redes-footer  a img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.qr-code-footer img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.app-store img {
+    width: 100px;
+    height: auto;
+    margin-right: 5px;
+    padding: 10px 0;
+}
+
+.copyright {
+    padding-top: 30px;
+}
+
+.copyright p {
+    border-top: 2px solid rgb(221, 221, 221);
+    margin: 0 10%;
+    padding: 30px 40px;
+    font-size: 14px;
+    text-align: center;
+    color: rgb(110, 107, 107);
+}
